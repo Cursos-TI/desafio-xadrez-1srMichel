@@ -49,7 +49,9 @@ int main(){
     MoverRainha(8);
     printf("\n");
 
+    //chamando a função para mover o Cavalo
     MoverCavalo(2);
-
+    printf("\n");
+    
     return 0;
 }
