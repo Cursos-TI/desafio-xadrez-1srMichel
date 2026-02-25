@@ -4,7 +4,8 @@ int main(){
 
     //movimento do Bispo
     for(int i = 0; i < 5; i++){
-        printf("movendo Bispo: Diagonal superior direita \n");
+        printf("movendo Bispo: Cima \n");
+        printf("movendo Bispo: Direita \n");
     }
     printf("\n");
 
@@ -19,4 +20,6 @@ int main(){
         printf("Movendo Rainha: Esquerda \n");
     }
     printf("\n");
+
+    return 0;
 }

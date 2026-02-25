@@ -21,8 +21,10 @@ int main(){
     //assim, o loop "for" dentro dele roda, e depois que termina move o cavalo para a direita
     do{
         for(int i = 0; i < 2; i++){
-            printf("movendo Cavalo: cima \n");
+            printf("movendo Cavalo: Cima \n");
         }
-        printf("movendo Cavalo: direita \n");
+        printf("movendo Cavalo: Direita \n");
     }while(1 == 2);
+
+    return 0;
 }

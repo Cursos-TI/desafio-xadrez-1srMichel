@@ -6,7 +6,8 @@
 
 void MoverBispo(int casa){
     if(casa > 0){
-        printf("movendo Bispo: Diagonal Superior Direita \n");
+        printf("movendo Bispo: Cima \n");
+        printf("movendo Bispo: Direita \n");
         MoverBispo(casa - 1);
     }
 }
@@ -18,7 +19,8 @@ int main() {
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
     for(int i = 0; i < 5; i++){
-        printf("movendo Bispo: Diagonal superior direita \n");
+        printf("movendo Bispo: Cima \n");
+        printf("movendo Bispo: Direita \n");
     }
     printf("\n");
     // Implementação de Movimentação da Torre
